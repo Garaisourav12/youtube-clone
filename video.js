@@ -469,7 +469,7 @@ randerData();
 
 searchInput.value = urlParams.get('q')?urlParams.get('q'):'';
 try {
-    fetchVideos(searchInput.value, 1);
+    fetchVideos(searchInput.value, 20);
 }
 catch(error) {
     console.log(error);

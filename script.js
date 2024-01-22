@@ -236,7 +236,7 @@ searchInput.value = urlParams.get('q')?urlParams.get('q'):'';
 
 
 
-fetchVideos(searchInput.value, 3);
+fetchVideos(searchInput.value, 20);
 
 
 
