@@ -471,7 +471,7 @@ randerData();
 // fetch video to show as recomanded based on last query
 searchInput.value = urlParams.get('q')?urlParams.get('q'):'';
 try {
-    fetchVideos(searchInput.value, 2);
+    fetchVideos(searchInput.value, 25);
 }
 catch(error) {
     console.log(error);
