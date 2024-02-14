@@ -252,7 +252,7 @@ let searchButton = document.querySelector('.search-btn');
 let urlParams = new URLSearchParams(window.location.search);
 searchInput.value = urlParams.get('q')?urlParams.get('q'):'';
 
-fetchVideos(searchInput.value, 10);
+fetchVideos(searchInput.value, 25);
 
 
 // search input and button event listenenr to search some thing by query
